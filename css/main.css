@@ -71,6 +71,11 @@ body{
  }
 
 /**** ABOUT ***/
+/**GIT TEST**/
+h2{
+    color: red;
+}
+/***/
 #about .full-width {
     padding: 80px 0;
 }
