@@ -1,12 +1,13 @@
 /***Base Styles**/
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    color: #2b2b2b;
+    color: rgba(244, 171, 106, 1);
 }
 
 #introduction, #about, #contact {
     height: 400px;
 }
+
 
 /*** GRID ***/
 .full-width{
@@ -25,10 +26,13 @@ body{
 .half-width, .third-width {
     float: left;
 }
+
+
 /**NAVBAR aka Header**/
  header{
+     background: rgba(31, 30, 48, 1);
+     border-bottom: 4px solid rgba(31, 30, 48, 1);
      width: 100%;
-     background: red;
      text-align: center;
  }
 
@@ -54,22 +58,29 @@ body{
  /**WELCOME SECTION**/
 
  #welcome{
-    background-color: #7F7F7F;
+    background-color: rgba(239, 137, 27, 1);
+    border-bottom: 2px solid rgba(31, 30, 48, 1);
+    border-top: 2px solid rgba(31, 30, 48, 1);
     padding: 100px 0 100px 0;
     width: 100%;  
 }
  #welcome h3{
+    color: rgba(31, 30, 48, 1);
     font-family: 'Lora', serif;
-    font-size: 30px;
-    color: #BBC085;
+    font-size: 72px;
+    margin-top: 0;
+    margin-bottom: 0;
     text-align: center;
+    text-transform: uppercase;
 
  }
 
  /**INTRODUCTION**/
 
  #introduction{
-    background-color: blue;
+    background-color: rgba(43, 44, 118, 1);
+    border-bottom: 4px solid rgba(31, 30, 48, 1);
+    border-top: 4px solid rgba(31, 30, 48, 1);
     height: 535px;
 
  }
@@ -85,15 +96,20 @@ body{
  }
 
  #introduction p{
-     font-size: 40px;
+     font-size: 30px;
+     line-height: 50px;
+     text-align: justify;
      padding: 30px 0;
+     word-spacing: -2px;
+     
  }
 
 
 /**** ABOUT ***/
 
 #about {
-    background-color: orange;
+    background-color: rgba(31, 26, 80, 1);
+    border-bottom: 4px solid rgba(31, 30, 48, 1);
     text-decoration: underline;
     text-transform: uppercase;
     width: 100%;
@@ -108,10 +124,12 @@ body{
     font-size: 36px;
     padding-left: 50px;
     text-align: left;
+    text-decoration: underline;
+    
 }
 
 #about ul{
-    
+    font-size: 20px;
     text-align: left;
 }
 
@@ -120,10 +138,11 @@ body{
 /**CONTACT**/
 
 #contact{
-    background: #EBEBEB;
+    background: rgba(44, 44, 44, 0.274);
 }
 
 #contact .full-width{
+    color: rgba(31, 26, 80, 1);
     margin: 0 auto;
     padding: 100px 0;
     text-transform: capitalize;
@@ -143,6 +162,7 @@ body{
 }
 
 #contact ul {
+    font-size: 20px;
     list-style: none;
     line-height: 40px;
 }
