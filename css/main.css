@@ -4,7 +4,7 @@ body{
     color: rgba(244, 171, 106, 1);
 }
 
-#introduction, #about, #contact {
+#introduction, #about, #knowledge, #contact{
     height: 600px;
     font-family: 'Roboto Slab', serif;
 }
@@ -52,8 +52,8 @@ body{
      text-decoration: none;
      font-size: 18px;
      color: #828282;
-     padding-left: 100px;
-     padding-right: 100px;
+     padding-left: 90px;
+     padding-right: 90px;
  }
 
  nav a:hover{
