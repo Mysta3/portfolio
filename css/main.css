@@ -1,11 +1,10 @@
 /***Base Styles**/
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    color: rgba(244, 171, 106, 1);
 }
 
-#introduction, #about, #contact {
-    height: 600px;
+#aboutMe, #education, #projects,  #contact{
+    height: 500px;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -31,7 +30,7 @@ body{
 
 /**NAVBAR aka Header**/
  header{
-     background: rgba(31, 30, 48, 1);
+     background: rgba(14, 22, 32, 1);
      border-bottom: 4px solid white /*rgba(31, 30, 48, 1)*/;
      width: 100%;
      text-align: center;
@@ -52,27 +51,27 @@ body{
      text-decoration: none;
      font-size: 18px;
      color: #828282;
-     padding-left: 100px;
-     padding-right: 100px;
+     padding-left: 90px;
+     padding-right: 90px;
  }
 
  nav a:hover{
-     color: rgba(244, 171, 106, 1);
+     color: silver;
  }
 
  /**WELCOME SECTION**/
 
  #welcome{
-    background-color: rgba(239, 137, 27, 1);
+    background-color:  rgba(71, 89, 100, 1);
     border-bottom: 4px solid white;
     border-top: 2px solid rgba(31, 30, 48, 1);
     padding: 100px 0 100px 0;
     width: 100%;  
 }
- #welcome h3{
-    color: rgba(31, 30, 48, 1);
+ #welcome h1{
+    color: /*rgba(31, 30, 48, 1);*/ silver;
     font-family: 'Lora', serif;
-    font-size: 72px;
+    font-size: 100px;
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
@@ -80,27 +79,38 @@ body{
 
  }
 
- /**INTRODUCTION**/
+ /**AboutMe**/
 
- #introduction{
-    background-color: rgba(43, 44, 118, 1);
+ #aboutMe{
+    background-color: rgba(14, 22, 32, 1);
     border-bottom: 4px solid white/*rgba(31, 30, 48, 1)*/;
     border-top: 4px solid rgba(31, 30, 48, 1);
     height: 535px;
 
  }
 
- #introduction .full-width{
+ 
+ #aboutMe .full-width{
     text-align: center;
     width: 100%;
  }
 
- #introduction img{  
-     border: 2px solid white; 
-     margin-top: 30px;
+ 
+ #aboutMe h1 {
+    color: white; 
+    font-size: 36px; 
+    text-align: center; 
+    text-decoration: underline; 
  }
 
- #introduction p{
+ #aboutMe img{  
+     border: 2px solid white; 
+     margin-top: 0;
+     width: 60%;
+ }
+
+ #aboutMe p{
+    color: rgba(210, 215, 219, 1);
      font-size: 30px;
      line-height: 50px;
      text-align: justify;
@@ -110,33 +120,74 @@ body{
  }
 
 
-/**** ABOUT ***/
+/**** education ***/
 
-#about {
-    background-color: rgba(31, 26, 80, 1);
-    border-bottom: 4px solid white/*rgba(31, 30, 48, 1)*/;
+#education {
+    background-color: rgba(71, 89, 100, 1);
+    border-bottom: 4px solid white;
+    color: rgba(210, 215, 219, 1);
     text-decoration: underline;
     text-transform: uppercase;
     width: 100%;
 }
 
-#about .full-width {
-    padding: 80px 0;
+
+#education .full-width {
+  /*  padding: 80px 0; */
+    height: 300px;
 }
 
-#about h2{
+#education h1 {
+    color: white; 
+    font-size: 36px; 
+    padding-top: 30px;
+    text-align: center; 
+    text-decoration: underline; 
+ }
+
+#education h3{
     font-size: 36px;
     padding-left: 50px;
+    padding-top: 30px;
     text-align: left;
     text-decoration: underline;
     
 }
 
-#about ul{
+#education ul{
     font-size: 20px;
     text-align: left;
 }
 
+/***PROJECTS***/
+
+#projects{
+    background:  rgba(14, 22, 32, 1);
+    border-bottom: 4px solid white;
+}
+
+#projects h1{
+    color: white; 
+    font-size: 36px; 
+    text-align: center; 
+    text-decoration: underline; 
+    padding-top: 20px;
+}
+
+#projects .project{
+    color: rgba(210, 215, 219, 1);
+    padding-top: 40px; 
+    text-align: center;
+}
+
+#projects h2 a{
+    color: rgba(210, 215, 219, 1);
+}
+
+#projects a:hover{
+    color: silver;
+    font-size: 30px; 
+}
 
 
 /**CONTACT**/
@@ -154,10 +205,11 @@ body{
 
 
 #contact h2 {
-    font-family: 'Lora', serif;
+   /* font-family: 'Lora', serif; */
     font-size: 36px;
-    line-height: 44px;
-    margin-left: 25px;
+    line-height: 20px;
+    margin: auto 0;
+    padding-bottom: 20px; 
 }
 
 #contact a {
@@ -167,14 +219,8 @@ body{
 }
 
 #contact ul {
-    font-size: 45px;
+    font-size: 25px;
     list-style: none;
     line-height: 60px;
-    padding-top: 60px;
-}
-
-
-#contact img {
-    margin-left: 25px;
-    border: 4px solid rgba(31, 30, 48, 1);
+    padding-bottom: 20px;
 }
