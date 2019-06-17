@@ -69,7 +69,7 @@ body{
     width: 100%;  
 }
  #welcome h1{
-    color: rgba(31, 30, 48, 1);
+    color: /*rgba(31, 30, 48, 1);*/ silver;
     font-family: 'Lora', serif;
     font-size: 100px;
     margin-top: 0;
