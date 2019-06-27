@@ -76,8 +76,25 @@ body{
     margin-bottom: 0;
     text-align: center;
     text-transform: uppercase;
-
+    animation: pulse 4s 1;
  }
+@keyframes pulse{
+
+    0% {
+        color: rgba(31, 30, 48, 1);
+    }
+
+    50%{
+        color: white;
+    }
+
+    100%{
+        color: silver;
+    }
+
+}
+
+ 
 
  /**AboutMe**/
 
@@ -91,9 +108,9 @@ body{
 
  
  #aboutMe .full-width{
-    text-align: center;
-    width: 100%;
+    /*width: 100%;*/
  }
+
 
  
  #aboutMe h1 {
@@ -107,6 +124,8 @@ body{
      border: 2px solid white; 
      margin-top: 0;
      width: 60%;
+     margin-left: 70px; 
+     margin-top: 15px;
  }
 
  #aboutMe p{
@@ -114,7 +133,8 @@ body{
      font-size: 16px;
      line-height: 25px;
      text-align: justify;
-     margin-left: 0;
+     margin-bottom: 10px;
+     margin-left: 10px;
      word-spacing: -2px;
      
  }
@@ -145,7 +165,10 @@ body{
     text-decoration: underline; 
  }
 
+
+
 #education h3 {
+    text-align: left;
     font-size: 36px;
     padding-left: 50px;
     padding-top: 30px;
@@ -155,11 +178,14 @@ body{
 
 #education ul {
     font-size: 20px;
+    text-align: left;
     text-decoration: none;
-
+    list-style: none;
 }
 
-
+#education #text-right {
+    margin-left: 200px;
+}
 
 
 /***PROJECTS***/
@@ -224,6 +250,6 @@ body{
 #contact ul {
     font-size: 25px;
     list-style: none;
-    line-height: 60px;
+    line-height: 40px;
     padding-bottom: 20px;
 }

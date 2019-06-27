@@ -83,7 +83,7 @@
                      </div>
                     </div>
                     <div class="half-width">
-                     <div>
+                     <div id="text-right">
                         <h3>courses taken</h3>
                         <ul>
                             <li>Web Development Bootcamp</li>
@@ -140,7 +140,7 @@
                     <div class="half-width">
                         <h2>Feel free to contact me</h2>
                     <div>
-                        <form>
+                        <form id="contactForm">
                             <div class="form-group">
                               <input type="text" class="form-control" id="name" placeholder="Name" required>
                             </div>
@@ -148,20 +148,41 @@
                               <input type="email" class="form-control" id="email" placeholder="Email" required>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" id="textArea1" placeholder="Message" rows="3"></textarea>
+                                <textarea class="form-control" id="message" placeholder="Message" rows="3" minlength="5"></textarea>
                             </div>
-                            <input type="submit" value="Submit">
+                            <input type="submit"  value="submit">
                           </form>
                     </div>
                     </div>
                     <div class="half-width">
                         <ul>
-                            <li>LinkedIn Profile: <a href="https://www.linkedin.com/in/myshawne-stallings">Myshawne Stallings </a><i class="fab fa-linkedin"></i></li>
-                            <li>Email Address: myshawnestallings@gmail.com <i class="fas fa-envelope-square"></i></li>
+                            <!--<li>LinkedIn Profile: <a href="https://www.linkedin.com/in/myshawne-stallings">Myshawne Stallings </a><i class="fab fa-linkedin"></i></li>-->
+                            <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="myshawne-stallings"><a class="LI-simple-link" href='https://www.linkedin.com/in/myshawne-stallings?trk=profile-badge'>Myshawne Stallings</a></div>                            <li>Email Address: myshawnestallings@gmail.com <i class="fas fa-envelope-square"></i></li>
                         </ul>
                     </div>
                 </div>
             </section>
         </main>
+        <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-app.js"></script>
+            <!-- Initialize Firebase --> 
+        <script>
+          // Your web app's Firebase configuration
+          var firebaseConfig = {
+            apiKey: "AIzaSyDhuLpTtXuYG9fhsyJGDGexBrC0KzPyLGw",
+            authDomain: "contactform-105e8.firebaseapp.com",
+            databaseURL: "https://contactform-105e8.firebaseio.com",
+            projectId: "contactform-105e8",
+            storageBucket: "",
+            messagingSenderId: "60999868464",
+            appId: "1:60999868464:web:7b441c6cfdfa2aac"
+          };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+      
+      
+          </script>
+        <!-- LinkedIn Profile-->
+        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+        <script type="text/JavaScript" src="js/script.js"></script>
     </body>
 </html>
