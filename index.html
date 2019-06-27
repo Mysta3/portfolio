@@ -83,7 +83,7 @@
                      </div>
                     </div>
                     <div class="half-width">
-                     <div id="text-right">
+                     <div>
                         <h3>courses taken</h3>
                         <ul>
                             <li>Web Development Bootcamp</li>
@@ -150,7 +150,7 @@
                             <div class="form-group">
                                 <textarea class="form-control" id="message" placeholder="Message" rows="3" minlength="5"></textarea>
                             </div>
-                            <input type="submit"  value="submit">
+                            <input id="submit" type="submit"  value="submit">
                           </form>
                     </div>
                     </div>
@@ -164,8 +164,28 @@
             </section>
         </main>
         <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-app.js"></script>
-            <!-- Initialize Firebase --> 
-
+        <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.2.3/firebase-firestore.js"></script>
+        <!-- Initialize Firebase --> 
+        <script>
+            
+            
+           
+          // Your web app's Firebase configuration
+          var firebaseConfig = {
+            apiKey: "AIzaSyDhuLpTtXuYG9fhsyJGDGexBrC0KzPyLGw",
+            authDomain: "contactform-105e8.firebaseapp.com",
+            databaseURL: "https://contactform-105e8.firebaseio.com",
+            projectId: "contactform-105e8",
+            storageBucket: "",
+            messagingSenderId: "60999868464",
+            appId: "1:60999868464:web:7b441c6cfdfa2aac"
+          };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+      
+      
+          </script>
         <!-- LinkedIn Profile-->
         <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
         <script type="text/JavaScript" src="js/script.js"></script>
