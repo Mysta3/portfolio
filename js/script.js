@@ -1,24 +1,28 @@
 
   /* Reference Messages Collection */ 
-  //var db = firebase.firestore("https://contactform-105e8.firebaseio.com/");
   var db = firebase.firestore();
 
 document.querySelector('#submit').addEventListener('click',
     function(){
         db.collection('newMessage').doc().set({
+            
             name    : document.querySelector('#name').value,
             email   : document.querySelector('#email').value,
-            message : document.querySelector('#message').value
+            message : document.querySelector('#message').value 
+            
         });
+        alert("Thanks for submitting! I look forward to connecting with you!");
         console.log("submit successful")
+
     }
 )
 
 
 
+/*
 //listen for Form submit
 document.getElementById("contactForm").addEventListener("submit", submitForm);
-
+*/
 function submitForm(e){
     e.preventDefault();
 
@@ -30,16 +34,8 @@ function submitForm(e){
 
     //call saveMessage funciton
     saveMessage(name, email, message);
+   
 } 
-
-/*
-//Function to get form values
-
-function getInputVal(id){
-    return document.getElementById(id).value;
-}
-
-*/
 
 
 //Save Message to firebase messages table
@@ -51,6 +47,7 @@ function saveMessage(name, email, message){
         email: email,
         message: message
     });
+    
 }
 
 
