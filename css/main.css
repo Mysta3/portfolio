@@ -31,7 +31,7 @@ body{
 /**NAVBAR aka Header**/
  header{
      background: rgba(14, 22, 32, 1);
-     border-bottom: 4px solid white /*rgba(31, 30, 48, 1)*/;
+     border-bottom: 6px solid white /*rgba(31, 30, 48, 1)*/;
      width: 100%;
      text-align: center;
  }
@@ -63,14 +63,14 @@ body{
 
  #welcome{
     background-color:  rgba(71, 89, 100, 1);
-    border-bottom: 4px solid white;
+    border-bottom: 6px solid white;
     border-top: 2px solid rgba(31, 30, 48, 1);
     padding: 100px 0 100px 0;
     width: 100%;  
 }
  #welcome h1{
-    color: /*rgba(31, 30, 48, 1);*/ silver;
-    font-family: /*'Lora', serif; */ 'Russo One', sans-serif;
+    color:  silver;
+    font-family: 'Russo One', sans-serif;
     font-size: 100px;
     margin-top: 0;
     margin-bottom: 0;
@@ -78,6 +78,7 @@ body{
     text-transform: uppercase;
     animation: pulse 4s 1;
  }
+
 @keyframes pulse{
 
     0% {
@@ -100,7 +101,7 @@ body{
 
  #aboutMe{
     background-color: rgba(14, 22, 32, 1);
-    border-bottom: 4px solid white/*rgba(31, 30, 48, 1)*/;
+    border-bottom: 6px solid white;
     border-top: 4px solid rgba(31, 30, 48, 1);
     height: 555px;
 
@@ -115,6 +116,7 @@ body{
  #aboutMe h1 {
     color: white; 
     font-size: 36px; 
+    padding-top: 20px;
     text-align: center; 
     text-decoration: underline; 
  }
@@ -129,8 +131,8 @@ body{
 
  #aboutMe p{
     color: rgba(210, 215, 219, 1);
-     font-size: 16px;
-     line-height: 25px;
+     font-size: 18px;
+     line-height: 30px;
      margin: 0;
      text-align: justify;
      padding-top: 30px;
@@ -144,7 +146,7 @@ body{
 
 #education {
     background-color: rgba(71, 89, 100, 1);
-    border-bottom: 4px solid white;
+    border-bottom: 6px solid white;
     color: rgba(210, 215, 219, 1);
     text-decoration: underline;
     text-transform: capitalize;
@@ -153,7 +155,6 @@ body{
 
 
 #education .full-width {
-  /*  padding: 80px 0; */
     height: 300px;
 }
 
@@ -167,8 +168,8 @@ body{
 
 #education h3 {
     text-align: left;
-    font-size: 36px;
-    padding-left: 50px;
+    font-size: 40px;
+    padding-left: 120px;
     padding-top: 30px;
     text-decoration: underline;
 
@@ -176,10 +177,13 @@ body{
 }
 
 #education ul {
-    font-size: 20px;
+    font-size: 25px;
+    list-style: none;
+    padding-left: 120px; 
     text-align: left;
     text-decoration: none;
-    list-style: none;
+
+    
 
 }
 
@@ -191,7 +195,7 @@ body{
 
 #projects{
     background:  rgba(14, 22, 32, 1);
-    border-bottom: 4px solid white;
+    border-bottom: 6px solid white;
 }
 
 #projects h1{
@@ -215,6 +219,11 @@ body{
 #projects a:hover{
     color: silver;
     font-size: 30px; 
+}
+
+#projects p{
+    text-align: center;
+    padding-left: 20px;
 }
 
 
