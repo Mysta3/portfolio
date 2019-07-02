@@ -1,3 +1,268 @@
+<<<<<<< HEAD
+/***Base Styles**/
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#aboutMe, #education, #projects,  #contact{
+    height: 500px;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/*** GRID ***/
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width{
+    width: 600px;
+}
+
+.third-width{
+    width: 400px;
+}
+
+.half-width, .third-width {
+    float: left;
+}
+
+
+/**NAVBAR aka Header**/
+ header{
+     background: rgba(14, 22, 32, 1);
+     border-bottom: 6px solid white /*rgba(31, 30, 48, 1)*/;
+     width: 100%;
+     text-align: center;
+ }
+
+ nav{
+    text-align: center;
+    padding: 10px 0 20px 0; 
+     
+ }
+
+ nav ul li {
+     display: inline-block;
+ }
+
+ nav ul li a{
+     text-transform: uppercase;
+     text-decoration: none;
+     font-size: 18px;
+     color: #828282;
+     padding-left: 90px;
+     padding-right: 90px;
+ }
+
+ nav a:hover{
+     color: silver;
+ }
+
+ /**WELCOME SECTION**/
+
+ #welcome{
+    background-color:  rgba(71, 89, 100, 1);
+    border-bottom: 6px solid white;
+    border-top: 2px solid rgba(31, 30, 48, 1);
+    padding: 100px 0 100px 0;
+    width: 100%;  
+}
+ #welcome h1{
+    color:  silver;
+    font-family: 'Russo One', sans-serif;
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    animation: pulse 4s 1;
+ }
+
+@keyframes pulse{
+
+    0% {
+        color: rgba(31, 30, 48, 1);
+    }
+
+    50%{
+        color: white;
+    }
+
+    100%{
+        color: silver;
+    }
+
+}
+
+ 
+
+ /**AboutMe**/
+
+ #aboutMe{
+    background-color: rgba(14, 22, 32, 1);
+    border-bottom: 6px solid white;
+    border-top: 4px solid rgba(31, 30, 48, 1);
+    height: 555px;
+
+ }
+
+ 
+ #aboutMe .full-width{
+    width: 100%;
+ }
+
+ 
+ #aboutMe h1 {
+    color: white; 
+    font-size: 36px; 
+    padding-top: 20px;
+    text-align: center; 
+    text-decoration: underline; 
+ }
+
+ #aboutMe img{  
+     border: 2px solid white; 
+     margin-top: 0;
+     width: 60%;
+     margin-left: 75px; 
+     margin-top: 2px;
+ }
+
+ #aboutMe p{
+    color: rgba(210, 215, 219, 1);
+     font-size: 18px;
+     line-height: 30px;
+     margin: 0;
+     text-align: justify;
+     padding-top: 30px;
+     padding-right: 50px;
+     word-spacing: -2px;
+     
+ }
+
+
+/**** education ***/
+
+#education {
+    background-color: rgba(71, 89, 100, 1);
+    border-bottom: 6px solid white;
+    color: rgba(210, 215, 219, 1);
+    text-decoration: underline;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+
+#education .full-width {
+    height: 300px;
+}
+
+#education h1 {
+    color: white; 
+    font-size: 36px; 
+    padding-top: 30px;
+    text-align: center; 
+    text-decoration: underline; 
+ }
+
+#education h3 {
+    text-align: left;
+    font-size: 40px;
+    padding-left: 120px;
+    padding-top: 30px;
+    text-decoration: underline;
+
+    
+}
+
+#education ul {
+    font-size: 25px;
+    list-style: none;
+    padding-left: 120px; 
+    text-align: left;
+    text-decoration: none;
+
+    
+
+}
+
+
+
+
+
+/***PROJECTS***/
+
+#projects{
+    background:  rgba(14, 22, 32, 1);
+    border-bottom: 6px solid white;
+}
+
+#projects h1{
+    color: white; 
+    font-size: 36px; 
+    text-align: center; 
+    text-decoration: underline; 
+    padding-top: 20px;
+}
+
+#projects .project{
+    color: rgba(210, 215, 219, 1);
+    padding-top: 30px; 
+    text-align: center;
+}
+
+#projects h2 a{
+    color: rgba(210, 215, 219, 1);
+}
+
+#projects a:hover{
+    color: silver;
+    font-size: 30px; 
+}
+
+#projects p{
+    text-align: center;
+    padding-left: 20px;
+}
+
+
+/**CONTACT**/
+
+#contact{
+    background: rgba(44, 44, 44, 0.274);
+}
+
+#contact .full-width{
+    color: rgba(31, 26, 80, 1);
+    margin: 0 auto;
+    padding: 100px 0;
+    text-transform: capitalize;
+}
+
+
+#contact h2 {
+   /* font-family: 'Lora', serif; */
+    font-size: 36px;
+    line-height: 20px;
+    margin: auto 0;
+    padding-bottom: 20px; 
+}
+
+#contact a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+
+#contact ul {
+    font-size: 25px;
+    list-style: none;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+=======
 /***Base Styles**/
 body{
     font-family: 'Source Sans Pro', sans-serif;
@@ -252,3 +517,4 @@ body{
     line-height: 40px;
     padding-bottom: 20px;
 }
+>>>>>>> c2c5b764292c3fefb2282e93bad6221bdd7a4796

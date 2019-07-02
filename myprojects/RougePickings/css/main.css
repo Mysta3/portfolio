@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     font-family: 'Open Sans', sans-serif;
     color: black;
@@ -119,3 +120,126 @@ footer span {
     font-family: 'Pacifico', cursive;
     
 }
+=======
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+/*** GRID ***/
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.third-width{
+    width: 300px;
+}
+
+.half-width, .third-width {
+    float: left;
+    margin: 0 auto;
+}
+
+/*Header*/
+
+#title{
+    color: #77a466;
+    letter-spacing: 2px;
+}
+
+nav{
+    float: right;
+    padding-top: 15px;
+    word-spacing: 5px;
+
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color:#77a466; 
+    
+}
+
+/*MAIN*/
+h1{
+    text-transform: uppercase;
+
+}
+
+img{
+    border-bottom: 4px solid #77a466; 
+}
+
+#welcome{
+    text-align: left;
+
+}
+#welcome h3{
+    color: #77a466;
+    text-transform: uppercase; 
+}
+
+#welcome p{
+    font-size: 18px;
+    text-align: left;
+
+
+}
+
+
+#content .full-width{
+    border-top: 1px solid silver; 
+
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 0 15px 20px 15px;
+}
+
+#content .third-width{
+    padding: 20px 25px;
+    
+}
+#content p{
+    color: #77a466; 
+    list-style: none;    
+}
+
+
+#reviews p{
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    color: black;
+}
+
+#contactUs p{
+    font-size: 15px;
+    color: black;
+}
+
+footer .full-width{
+    border-top: 1px solid silver;
+    clear:both;
+    font-size: 12px;
+    text-align: center; 
+    margin: 0 auot;
+}
+
+footer span {
+    color: #77a466; 
+    font-family: 'Pacifico', cursive;
+    
+}
+>>>>>>> c2c5b764292c3fefb2282e93bad6221bdd7a4796
