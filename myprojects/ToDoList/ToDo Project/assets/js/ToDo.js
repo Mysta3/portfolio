@@ -26,5 +26,4 @@ $("input[type = 'text']").keypress(function(event){ //make sure you check your s
 
 $(".fa-plus").click(function(){
     $("input[type = 'text']").fadeToggle();
-
-})
+});
